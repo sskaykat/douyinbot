@@ -2,6 +2,8 @@
 ### Api来自 
 [**PearNoDec/DouYinParse**](https://github.com/PearNoDec/DouYinParse)
 
+### 代码使用 ChatGPT 生成，在下不会写代码，只是代码的搬运工。
+
 ---
 ## 运行
 *把 config.ini 中的 bot-token 替换成自建的 bot-token*
