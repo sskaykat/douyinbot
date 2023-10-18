@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dydownbot:
+    image: taohuajiu/dybot:0.0.1
+    container_name: dydownbot
+    volumes:
+      - /dockerapp/douyinbot/config.ini:/dybot/config.ini
+    restart: always
