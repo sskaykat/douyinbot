@@ -22,8 +22,8 @@ def handle_start(message):
 @bot.message_handler(func=lambda message: True)
 def handle_url(message):
     url_input = message.text
-
-    url = f"https://api.pearktrue.cn/api/video/api.php?url={url_input}"
+    urls = re.findall(r'https?://\S+', url_input)
+    url = f"https://api.pearktrue.cn/api/video/api.php?url={urls}"
 
     response = requests.get(url)
     data = json.loads(response.text)
