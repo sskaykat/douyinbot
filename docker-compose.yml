@@ -4,5 +4,5 @@ services:
     image: taohuajiu/dybot:0.0.1
     container_name: dydownbot
     volumes:
-      - /dockerapp/douyinbot/config.ini:/dybot/config.ini
+      - /dockerapp/douyinbot/config.py:/dybot/config.py
     restart: always
